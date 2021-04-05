@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'monda';
+    src: url('font/Monda-Regular.ttf');
+}
+
+body {
+    color: white;
+    text-align: center;
+    font-family: 'monda';
+    font-size: 15px;
+    background-image: url("images/background.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-shadow: 1px 1px 2px black;
+}
+img {
+    height: 190px;
+    width: 190px;
+}
