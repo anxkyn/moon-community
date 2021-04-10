@@ -1,0 +1,130 @@
+@font-face {
+    font-family: "leixo";
+    src: url("font/LEIXO-DEMO.ttf");
+    
+}
+
+body {
+    background-color: royalblue;
+    background-repeat: no-repeat;
+    color: white;
+
+    margin: 0;
+}
+
+h3 {
+    font-family: "monda";
+    text-shadow: black 1px 0 10px;
+
+    margin: 1rem 10rem 2rem 9rem;
+    padding: 5rem 2rem 1rem 1rem;
+
+
+}
+
+img {
+    height: 110px;
+    width: 110px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    display: block;
+}
+
+.moon-community {
+    font-family: "leixo";
+    color: white;
+
+    text-align: center;
+    text-shadow: black 1px 0 10px;
+}
+/*footer*/
+footer {
+    display: table;
+    text-align: center;
+    color: black;
+    background-color: white;
+
+    width: 100%;
+     position:absolute;
+    
+    bottom:0;
+    
+    
+    padding-top: 5px;
+    
+    height: 70px;
+}
+
+footer img {
+    margin-top: -5px -5px -5px -5px;
+    width: 35px;
+    height: 35px;
+
+    display: inline;
+
+}
+/*barre nav*/
+ul {
+    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+
+    font-family: "leixo";
+    text-shadow: white 1px 0 10px;
+}
+
+.nav li{
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+.nav a:link {
+    text-decoration: none;
+}
+/*test
+.nav a:hover{
+
+}*/
+ul a:visited {
+    color: white;
+}
+
+.nav {
+    border:1px solid black;
+    border-width: 5px 0;
+    margin-left: auto;
+
+    border-style:hidden;
+
+    margin:0;
+    padding:0;
+    width:100%;
+}
+
+/*bouton*/
+.button-disc  {
+    font-family: "leixo";
+
+    text-align: center;
+    text-decoration: none;
+    background-color: #23272a;
+
+    border: none;
+    border-radius: 2rem;
+    border: 2px solid white;
+
+
+    box-shadow: black 1px 0 10px;
+
+    color: white;
+    padding: 1rem;
+    /*margin: 4px 2px;*/
+
+    margin-left: 20%;
+}
+.button-disc:hover {
+    box-shadow: blue 1px 0 10px;
+}
